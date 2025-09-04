@@ -13,4 +13,32 @@ Website travel modern untuk booking destinasi, promo wisata, dan booking online,
 - Responsive (desktop & mobile)
 
 ## Struktur Project
+/pages
+└── index.js // Homepage
+└── destinations.js // Daftar destinasi
+└── promo.js // Promo
+└── login.js // Login/Register
+└── cart.js // Keranjang
+└── dashboard.js // User dashboard
+└── destination/[id].js // Detail destinasi
+/components
+└── Navbar.js
+└── Footer.js
+└── HeroSection.js
+└── DestinationCard.js
+└── PromoCard.js
+└── TestimonialCard.js
+└── LoginRegisterModal.js
+└── CartItem.js
+└── PaymentMethod.js
+└── ReviewForm.js
+/hooks
+└── useFetchDestinations.js
+└── useFetchPromo.js
+
+## Instalasi
+
+1. Clone repository:
+2. Install dependencies:
+3. Jalankan server development:
 
