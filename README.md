@@ -1,44 +1,16 @@
-# Jalan.in - Modern Travel Website
+# Jalan.in Travel Website
 
-Website travel modern untuk booking destinasi, promo wisata, dan booking online, dibuat menggunakan Next.js, React, TailwindCSS, serta terintegrasi API Travel.
+Simple travel website with TailwindCSS + API Integration.  
+Deployed on Vercel.
 
-## Fitur Utama
+## API
+Base URL: `https://travel-journal-api-bootcamp.do.dibimbing.id`  
+API Key: `24405e01-fbc1-45a5-9f5a-be13afcd757c`
 
-- List destinasi wisata populer
-- Promo & diskon perjalanan
-- User review & testimoni perjalanan
-- Cart/keranjang, pembayaran dan dashboard member
-- Autentikasi user (Login/Register)
-- Integrasi API CRUD travel
-- Responsive (desktop & mobile)
+## Run Locally
+Open `index.html` in browser.
 
-## Struktur Project
-/pages
-└── index.js // Homepage
-└── destinations.js // Daftar destinasi
-└── promo.js // Promo
-└── login.js // Login/Register
-└── cart.js // Keranjang
-└── dashboard.js // User dashboard
-└── destination/[id].js // Detail destinasi
-/components
-└── Navbar.js
-└── Footer.js
-└── HeroSection.js
-└── DestinationCard.js
-└── PromoCard.js
-└── TestimonialCard.js
-└── LoginRegisterModal.js
-└── CartItem.js
-└── PaymentMethod.js
-└── ReviewForm.js
-/hooks
-└── useFetchDestinations.js
-└── useFetchPromo.js
-
-## Instalasi
-
-1. Clone repository:
-2. Install dependencies:
-3. Jalankan server development:
-
+## Deploy to Vercel
+1. Push repo ke GitHub.
+2. Import repo di [Vercel](https://vercel.com).
+3. Deploy 🚀
